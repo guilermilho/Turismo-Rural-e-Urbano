@@ -1,0 +1,9 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #89c5a2;
+    color: #333;
+    line-height: 1.6;
+}
