@@ -13,7 +13,6 @@ body {
 
 .Cabeçalho {
     color: #89c5a2;
-text-align: center;
 background-color: #436451;
 padding: 12px;
 
@@ -23,4 +22,5 @@ h1{
   font-weight: 400;
   font-style: normal;
   font-size: x-large;
+  text-align: center;
 }
