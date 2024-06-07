@@ -16,8 +16,11 @@ body {
 text-align: center;
 background-color: #436451;
 padding: 12px;
-font-family: "Calistoga", serif;
+
+}
+h1{
+    font-family: "Calistoga", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: large;
+  font-size: x-large;
 }
