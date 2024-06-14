@@ -38,9 +38,10 @@ body {
 
 @media screen and (min-width:1024px) {
     .Cabeçalho {
-        color:  #9e89c5;
+        color: #9e89c5;
         background-color: #614c86;
     }
+
     body {
         font-family: 'Helvetica Neue', Arial, sans-serif;
         box-sizing: border-box;
@@ -57,19 +58,21 @@ body {
 @media screen and (min-width:1700px) {
     .Cabeçalho {
         background-color: #2c3e61;
-        color:  #899ec5;
+        color: #899ec5;
     }
+
     body {
         font-family: 'Helvetica Neue', Arial, sans-serif;
         box-sizing: border-box;
         background-color: #899ec5;
         color: #333;
         line-height: 1.6;
-        
+
     }
-img{
-    max-width: 50%;
-}
+
+    img {
+        width: 50%;
+    }
 }
 
 img {
