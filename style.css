@@ -37,8 +37,16 @@ body {
 }
 
 @media screen and (min-width:1024px) {
-    .Cabeçalho  {
-        background-color: rgb(0, 89, 255);
+    .Cabeçalho {
+        background-color:  #9e89c5;
+    }
+
+
+}
+
+@media screen and (min-width:1700px) {
+    .Cabeçalho {
+        background-color: #899ec5;
     }
 
 
