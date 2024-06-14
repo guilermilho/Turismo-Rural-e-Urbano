@@ -1,13 +1,16 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-  text-align: center;
+    text-align: center;
 }
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     box-sizing: border-box;
@@ -18,22 +21,25 @@ body {
 
 .Cabeçalho {
     color: #89c5a2;
-background-color: #436451;
-padding: 12px;
+    background-color: #436451;
+    padding: 12px;
 
 }
 
-.Destinos1{
+.Destinos1 {
     text-align: center;
-    
+
 }
 
-.Arapongas{
+.Arapongas {
     text-align: center;
     padding: 12px;
 }
 
-@media screen and (min-width:1024px){
-   header{background-color: red}  ;
-    
+@media screen and (min-width:1024px) {
+    header {
+        background-color: red;
+    }
+
+
 }
