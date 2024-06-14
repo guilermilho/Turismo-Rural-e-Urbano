@@ -62,8 +62,11 @@ body {
         background-color: #899ec5;
         color: #333;
         line-height: 1.6;
+        
     }
-
+img{
+    max-width: 50%;
+}
 }
 
 img {
