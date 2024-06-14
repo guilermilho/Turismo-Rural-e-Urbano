@@ -32,3 +32,8 @@ padding: 12px;
     text-align: center;
     padding: 12px;
 }
+
+@media screen and (min-width:1024px){
+   header{background-color: red}  ;
+    
+}
