@@ -41,7 +41,13 @@ body {
         color:  #9e89c5;
         background-color: #614c86;
     }
-
+    body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        box-sizing: border-box;
+        background-color: #9e89c5;
+        color: #333;
+        line-height: 1.6;
+    }
 
 }
 
@@ -50,6 +56,12 @@ body {
         background-color: #899ec5;
         color:  #546e9e;
     }
-
+    body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        box-sizing: border-box;
+        background-color: #899ec5;
+        color: #333;
+        line-height: 1.6;
+    }
 
 }
