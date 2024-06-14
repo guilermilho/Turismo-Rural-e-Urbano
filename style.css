@@ -38,7 +38,8 @@ body {
 
 @media screen and (min-width:1024px) {
     .Cabeçalho {
-        background-color:  #9e89c5;
+        color:  #9e89c5;
+        background-color: #614c86;
     }
 
 
@@ -47,6 +48,7 @@ body {
 @media screen and (min-width:1700px) {
     .Cabeçalho {
         background-color: #899ec5;
+        color:  #546e9e;
     }
 
 
