@@ -53,8 +53,8 @@ body {
 
 @media screen and (min-width:1700px) {
     .Cabeçalho {
-        background-color: #899ec5;
-        color:  #2c3e61;
+        background-color: #2c3e61;
+        color:  #899ec5;
     }
     body {
         font-family: 'Helvetica Neue', Arial, sans-serif;
