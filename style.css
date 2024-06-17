@@ -37,7 +37,7 @@ body {
 }
 
 footer {
-    background:#436451;
+    background: #436451;
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
@@ -62,10 +62,24 @@ footer p {
         color: #333;
         line-height: 1.6;
     }
-    img{
+
+    img {
         width: 25%;
     }
 
+    footer {
+        background: #614c86;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+        border-top: #372b4b;
+        3px solid;
+    }
+
+    footer p {
+        margin: 0;
+    }
 }
 
 @media screen and (min-width:1700px) {
@@ -82,8 +96,23 @@ footer p {
         line-height: 1.6;
 
     }
-    img{
+
+    img {
         width: 25%;
+    }
+
+    footer {
+        background: #2c3e61;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+        border-top: #1a2334;
+        3px solid;
+    }
+
+    footer p {
+        margin: 0;
     }
 }
 
