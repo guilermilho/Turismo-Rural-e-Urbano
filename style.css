@@ -127,7 +127,12 @@ a {
     footer p {
         margin: 0;
     }
-
+    .lista {
+        display: none;
+        position: absolute;
+        top: 100%;
+        text-align: center;
+    }
     .isso{
         background-color: #614c86;
     }
@@ -164,6 +169,13 @@ a {
 
     footer p {
         margin: 0;
+    }
+    
+    .lista {
+        display: none;
+        position: absolute;
+        top: 100%;
+        text-align: center;
     }
 
     .isso{
