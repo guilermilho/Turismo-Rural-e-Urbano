@@ -148,9 +148,6 @@ a {
     text-align: center;
 }
 
-.caixa :checked ~ .lista {
-    display: block;
-}
 
 #menu {
     display: none;
@@ -158,4 +155,9 @@ a {
 
 .lista-item {
     padding: 12px 8;
+}
+
+
+.caixa:checked ~ .lista {
+    display: block;
 }
