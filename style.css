@@ -49,6 +49,53 @@ footer p {
     margin: 0;
 }
 
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+ul li {
+    list-style: none;
+}
+
+.texto {
+    color: white;
+}
+
+a {
+    color:
+        white;
+    text-decoration: none;
+}
+
+.lista {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #8fe9b4;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+#menu {
+    display: none;
+}
+
+.lista-item {
+    padding: 12px 8;
+}
+
+
+.caixa:checked~.lista {
+    display: block;
+}
+
+
 @media screen and (min-width:1024px) {
     .Cabeçalho {
         color: #9e89c5;
@@ -125,49 +172,3 @@ footer p {
 
 }
 
-img {
-    width: 50%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-
-ul li {
-    list-style: none;
-}
-
-.texto {
-    color: white;
-}
-
-a {
-    color:
-        white;
-    text-decoration: none;
-}
-
-.lista {
-    display: none;
-    position: absolute;
-
-    top: 100%;
-    background-color: #436451;
-    width: 100%;
-    padding: 20px 0;
-    text-align: center;
-}
-
-
-#menu {
-    display: none;
-}
-
-.lista-item {
-    padding: 12px 8;
-}
-
-
-.caixa:checked~.lista {
-    display: block;
-}
