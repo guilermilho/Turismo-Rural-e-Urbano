@@ -23,7 +23,7 @@ body {
     color: #89c5a2;
     background-color: #436451;
     padding: 12px;
-
+    position: relative;
 }
 
 .Destinos1 {
@@ -123,13 +123,8 @@ img {
 }
 
 .menuzin {
-    display: flex;
-    align-items: center;
-    padding: 12px;
-    justify-content: space-around;
-    background-color: black;
-    color: white;
-    position: relative;
+   
+   
     /* Importante para o menu tomar como referência */
 }
 
