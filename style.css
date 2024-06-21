@@ -75,12 +75,14 @@ a {
     display: none;
     position: absolute;
     top: 100%;
-    background-color: #8fe9b4;
-    width: 100%;
+
     padding: 20px 0;
     text-align: center;
 }
 
+.isso{
+    background-color: #8fe9b4;
+}
 
 #menu {
     display: none;
@@ -92,7 +94,8 @@ a {
 
 
 .caixa:checked~.lista {
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -127,12 +130,8 @@ a {
         margin: 0;
     }
 
-    .lista {
-        display: none;
-    position: absolute;
-    top: 100%;
+    .isso{
         background-color: #614c86;
-
     }
 }
 
@@ -169,10 +168,7 @@ a {
         margin: 0;
     }
 
-    .lista {
-        display: none;
-    position: absolute;
-    top: 100%;
+    .isso{
         background-color: #2c3e61;
     }
 
