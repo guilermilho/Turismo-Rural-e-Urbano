@@ -38,7 +38,8 @@ body {
 }
 
 .EscritaObj {
-    margin: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 footer {
     background: #436451;
