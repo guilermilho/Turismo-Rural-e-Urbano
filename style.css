@@ -34,9 +34,12 @@ body {
 .Cidades {
     text-align: center;
     padding: 12px;
-    margin: 20px
+
 }
 
+.EscritaObj {
+    margin: 12px;
+}
 footer {
     background: #436451;
     color: #ffffff;
