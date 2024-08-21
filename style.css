@@ -1,56 +1,191 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     text-align: center;
 }
 
-h1, h2 {
-    margin-top: 0;
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #89c5a2;
+    color: #333;
+    line-height: 1.6;
 }
 
-section {
-    padding: 20px;
+.Cabeçalho {
+    color: #89c5a2;
+    background-color: #436451;
+    padding: 12px;
+    position: relative;
 }
 
-section:nth-child(even) {
-    background-color: #f4f4f4;
+.Destinos1 {
+    text-align: center;
+
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.Cidades {
+    text-align: center;
+    padding: 12px;
+
 }
+
+.EscritaObj {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+footer {
+    background: #436451;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: #388E3C 3px solid;
+}
+
+footer p {
+    margin: 0;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 
 ul li {
-    margin: 10px 0;
+    list-style: none;
 }
 
-button {
-    background-color: #333;
+.texto {
     color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 5px;
-}
-
-button:hover {
-    background-color: #555;
 }
 
 a {
-    color: #4CAF50;
+    color:
+        white;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+.lista {
+    display: none;
+    position: absolute;
+    top: 100%;
+    text-align: center;
+}
+
+.isso{
+    background-color: #436451;
+}
+
+#menu {
+    display: none;
+}
+
+.lista-item {
+    padding: 12px 8;
+}
+
+
+.caixa:checked~.lista {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+@media screen and (min-width:1024px) {
+    .Cabeçalho {
+        color: #9e89c5;
+        background-color: #614c86;
+    }
+
+    body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        box-sizing: border-box;
+        background-color: #9e89c5;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    img {
+        width: 25%;
+    }
+
+    footer {
+        background: #614c86;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+        border-top: #372b4b;
+    }
+
+    footer p {
+        margin: 0;
+    }
+    .lista {
+        display: none;
+        position: absolute;
+        top: 100%;
+        text-align: center;
+    }
+    .isso{
+        background-color: #614c86;
+    }
+}
+
+@media screen and (min-width:1700px) {
+    .Cabeçalho {
+        background-color: #2c3e61;
+        color: #899ec5;
+    }
+
+    body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        box-sizing: border-box;
+        background-color: #899ec5;
+        color: #333;
+        line-height: 1.6;
+
+    }
+
+    img {
+        width: 25%;
+    }
+
+    footer {
+        background: #2c3e61;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+        border-top: #1a2334;
+
+    }
+
+    footer p {
+        margin: 0;
+    }
+
+    .lista {
+        display: none;
+        position: absolute;
+        top: 100%;
+        text-align: center;
+    }
+
+    .isso{
+        background-color: #2c3e61;
+    }
+
 }
